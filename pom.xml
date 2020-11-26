@@ -10,6 +10,7 @@
   <version>1.0-SNAPSHOT</version>
   <modules>
     <module>network-study</module>
+    <module>mysql-study</module>
   </modules>
 
   <name>parent-study</name>
