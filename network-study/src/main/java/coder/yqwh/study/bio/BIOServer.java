@@ -1,4 +1,4 @@
-package coder.yqwh.usr.bio;
+package coder.yqwh.study.bio;
 
 import java.io.BufferedReader;
 import java.io.IOException;

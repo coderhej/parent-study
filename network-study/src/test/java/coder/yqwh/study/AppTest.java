@@ -1,4 +1,4 @@
-package coder.yqwh.usr;
+package coder.yqwh.study;
 
 import static org.junit.Assert.assertTrue;
 

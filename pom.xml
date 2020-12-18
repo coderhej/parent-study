@@ -16,7 +16,6 @@
   <version>1.0-SNAPSHOT</version>
   <modules>
     <module>network-study</module>
-    <module>usr</module>
   </modules>
 
   <name>parent-study</name>
