@@ -3,6 +3,12 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-parent</artifactId>
+    <version>2.1.2.RELEASE</version>
+    <relativePath/> <!-- lookup parent from repository -->
+  </parent>
 
   <groupId>coder.yqwh</groupId>
   <artifactId>parent-study</artifactId>
@@ -10,7 +16,7 @@
   <version>1.0-SNAPSHOT</version>
   <modules>
     <module>network-study</module>
-    <module>mysql-study</module>
+    <module>usr</module>
   </modules>
 
   <name>parent-study</name>
@@ -21,14 +27,14 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
-  </properties>
+    <java.version>1.8</java.version>
+    <spring-cloud.version>Greenwich.SR2</spring-cloud.version>
 
-  <dependencies>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>4.11</version>
-      <scope>test</scope>
-    </dependency>
-  </dependencies>
+    <!-- Maven Plugin Versions -->
+    <maven-compiler-plugin.version>3.7.0</maven-compiler-plugin.version>
+    <maven-deploy-plugin.version>2.8.2</maven-deploy-plugin.version>
+    <maven-surefire-plugin.version>2.21.0</maven-surefire-plugin.version>
+    <maven-archetype-plugin.version>3.1.0</maven-archetype-plugin.version>
+    <jacoco.version>0.8.3</jacoco.version>
+  </properties>
 </project>

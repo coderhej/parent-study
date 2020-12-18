@@ -1,0 +1,16 @@
+server:
+  port: 8089
+
+spring:
+#  profiles:
+#    active: '@spring.profiles.active@'
+  application:
+    name: usr
+
+#logging:
+#  level:
+#    coder.yqwh.usr: INFO
+#    org.mybatis: INFO
+#  config: classpath:logback-@spring.profiles.active@.xml
+#  config: classpath:logback-dev.xml
+#  file: ../logs/logback-${spring.application.name}.log

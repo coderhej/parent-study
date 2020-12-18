@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>parent-study</artifactId>
+        <groupId>coder.yqwh</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <version>1.0-SNAPSHOT</version>
+    <artifactId>usr</artifactId>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>usr-dal</module>
+        <module>usr-api</module>
+        <module>usr-util</module>
+        <module>usr-app</module>
+    </modules>
+
+    <properties>
+        <jetty-server.version>9.4.12.v20180830</jetty-server.version>
+        <lombok.version>1.16.18</lombok.version>
+        <swagger2.version>2.7.0</swagger2.version>
+        <hibernate-validator.version>5.3.6.Final</hibernate-validator.version>
+        <spring.version>4.3.13.RELEASE</spring.version>
+    </properties>
+</project>
